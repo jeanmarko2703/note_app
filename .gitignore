@@ -1,0 +1,65 @@
+# ======================
+# 🔧 GENERALES
+# ======================
+*.log
+*.tmp
+*.swp
+*.DS_Store
+*.class
+*.pyc
+.history
+.svn/
+.atom/
+migrate_working_dir/
+
+# ======================
+# ⚙️  IDEs
+# ======================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode
+.vscode/
+
+# ======================
+# 🐦 FLUTTER / DART
+# ======================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.build/
+build/
+**/build/
+
+# Output generado de documentación
+doc/api/
+
+# iOS / macOS específicos
+**/ios/Flutter/.last_build_id
+
+# Android outputs
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ======================
+# 📱 OBFUSCACIÓN / SÍMBOLOS
+# ======================
+app.*.symbols
+app.*.map.json
+
+# ======================
+# 🔍 TEST / LOGS
+# ======================
+firepit-log.txt
+
+# ======================
+# ☁️ FIREBASE
+# ======================
+lib/firebase_options.dart
